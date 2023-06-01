@@ -1,0 +1,29 @@
+{
+  "name": "YuanJie",
+  "version": "1.0.0",
+  "description": "个人博客",
+  "main": "index.js",
+  "author": "YuanJie",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "theme",
+    "template",
+    "plugin",
+    "vuepress"
+  ],
+  "homepage": "https://github.com/openHacking/vuepress-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openHacking/vuepress-template.git"
+  },
+  "scripts": {
+    "docs:dev": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
+    "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.7.1",
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-qrcode": "^1.0.7"
+  }
+}
