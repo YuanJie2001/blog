@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 一个分享技术的地方
-tagline: QQ群：287048847
+tagline: QQ群：287048847 或 863196830
 actionText: 查看指南 →
 actionLink: /guide/
 features:

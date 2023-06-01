@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: one place to share technology 
-tagline: QQ Group：287048847
+tagline: QQ Group：287048847 or 863196830
 actionText: view guide →
 actionLink: /guide/
 features:
