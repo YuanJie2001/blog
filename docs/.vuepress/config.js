@@ -1,6 +1,5 @@
 module.exports = {
-    base:'./',
-    dest: './dist',
+    base:'/blog/',
     port: 12315,
     head: [
         [
