@@ -1,5 +1,6 @@
 module.exports = {
-    base: '/blog/', //目标地址是：https://openhacking.github.io/vuepress-template/，所以需要配置base地址后缀
+    base:'./',
+    dest: './dist',
     port: 12315,
     head: [
         [
