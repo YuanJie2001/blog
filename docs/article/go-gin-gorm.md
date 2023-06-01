@@ -1,10 +1,10 @@
 # 基于golang的gin框架和gorm框架的项目结构及演练
-@[TOC](文章目录)
+
+[[toc]]
 
 ---
 
-
-go学习资料:
+**go学习资料**:
 
 [Go编程规范](https://github.com/xxjwxc/uber_go_guide_cn#import-分组)
 
@@ -18,7 +18,7 @@ go学习资料:
 
 
 `项目地址写在文章最后`   [https://github.com/YuanJie2001/gin-gorm-test](https://github.com/YuanJie2001/gin-gorm-test)
-# 	一.项目结构
+## 	一.项目结构
 
 | 主要技术 | 版本   | 描述    |
 | -------- | ------ | ------- |
@@ -26,7 +26,7 @@ go学习资料:
 | gin      | v1.9.0 | mvc框架 |
 | gorm     |        | ORM框架 |
 
-![在这里插入图片描述](./asserts/1.png)
+![在这里插入图片描述](./assets/1.png)
 
 
 1.router路由组可以嵌套
@@ -36,10 +36,10 @@ go学习资料:
 3.gorm框架由后端驱动. 对象生成表结构, 对象的方法操作表结构
 
 执行流程:
-![在这里插入图片描述](./asserts/img.png)
+![在这里插入图片描述](./assets/img.png)
 
 
-# 二.常用命令
+## 二.常用命令
 
 ```shell
 # 设置国内代理下载

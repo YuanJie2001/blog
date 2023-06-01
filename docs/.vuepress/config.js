@@ -96,6 +96,16 @@ module.exports = {
                     '/article/': [
                         '',
                         'go-gin-gorm',
+                        'database-change',
+                        'Dubbo-problem-solving',
+                        'netty',
+                        'lomback-log4j-log',
+                        'snow_flake',
+                        'springboot-common-utils',
+                        'policy-mode',
+                        'jpa-complex-query',
+                        'ELK',
+                        'distributed-transaction',
                     ],
                     '/resource/': []
                 }
@@ -128,7 +138,12 @@ module.exports = {
                         'theme',
                         'plugin'
                     ],
-                    '/en/article/': [],
+                    '/en/article/': [
+                        '',
+                        'go-gin-gorm',
+                        'database-change',
+                        'Dubbo-problem-solving'
+                    ],
                     '/en/resource/': []
                 }
             }
