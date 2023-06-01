@@ -9,7 +9,6 @@ yarn.lock
 
 #build result
 lib
-docs/.vuepress/dist
 
 # Logs
 logs
