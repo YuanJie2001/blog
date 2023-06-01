@@ -30,10 +30,9 @@
 
 # 前言
 
-<font color=#999AAA > 作者研读学习了Mysql的高性能优化和架构设计.写这篇文章为了日后复习巩固和帮助后来者提炼mysql精华! 还请各位读者及时勘误联系作者.本章节将持续更新!阅读本文章,需要有一定的数据库基础.为了避免重复造轮子,本章筛选了各位领域大佬的文章并注明了出处.目的只有两个复习和总结知识共同学习. 笔者主要参考文献为mysql官方文档,<<mysql高性能>>,<<innodb技术内幕>>,<<java开发手册华山版>>,<<MySQL是怎样运行的：从根儿上理解MySQL>>,"尚硅谷MySQL数据库高级","DBA高级实战进阶班 MySQL8.0 姜承尧-腾讯数据库总监","MySQL数据库教程天花板，mysql安装到mysql高级，强！硬！".
+ 作者研读学习了Mysql的高性能优化和架构设计.写这篇文章为了日后复习巩固和帮助后来者提炼mysql精华! 还请各位读者及时勘误联系作者.本章节将持续更新!阅读本文章,需要有一定的数据库基础.为了避免重复造轮子,本章筛选了各位领域大佬的文章并注明了出处.目的只有两个复习和总结知识共同学习. 笔者主要参考文献为mysql官方文档,<<mysql高性能>>,<<innodb技术内幕>>,<<java开发手册华山版>>,<<MySQL是怎样运行的 从根儿上理解MySQL>>,"尚硅谷MySQL数据库高级","DBA高级实战进阶班 MySQL8.0 姜承尧-腾讯数据库总监","MySQL数据库教程天花板，mysql安装到mysql高级，强！硬！">>
 
 mysql8.0 比mysql5.0性能提高10~100+倍
-</font>
 
 ```bash
 1.影响性能考虑点包括:【这里可以从访问顺序来作为链路进行性能调优】
@@ -56,10 +55,10 @@ docker stats：查看cpu占用、内存使用量、
 |                            | 独占表空间文件 .ibd (数据索引)           |                  |
 
 
-<hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
+---
 
 
-<font color=#999AAA >提示：以下是本篇文章正文内容，下面案例可供参考
+提示：以下是本篇文章正文内容，下面案例可供参考
 
 # 一、java开发之路的基石mysql组件的架构简介
 
@@ -1357,12 +1356,12 @@ alter table user add index  `idx_user_usernamePassword`(username, password); # �
   ![在这里插入图片描述](./assets/138397f6a0cc4877ad1808e70d20c52b.png)
   ![在这里插入图片描述](./assets/7ed4115f1f724684b7a2b3b6850bc1ad.png)
 
-<hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
+---
 
 
 ![在这里插入图片描述](./assets/296c87662ab546cb85a32118e0d23450.png)
 
-<hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
+---
 
 
 ![在这里插入图片描述](./assets/33e4c231d2824c9682f2441b29082190.png)

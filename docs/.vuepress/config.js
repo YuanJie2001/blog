@@ -95,9 +95,11 @@ module.exports = {
                     ],
                     '/article/': [
                         '',
+                        'mysql',
+                        'redis',
                         'go-gin-gorm',
                         'database-change',
-                        'Dubbo-problem-solving',
+                        'dubbo-problem-solving',
                         'netty',
                         'lomback-log4j-log',
                         'snow_flake',
