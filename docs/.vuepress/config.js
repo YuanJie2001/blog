@@ -109,6 +109,7 @@ module.exports = {
                         'jpa-complex-query',
                         'ELK',
                         'distributed-transaction',
+                        'proxy',
                     ],
                     '/resource/': []
                 }
