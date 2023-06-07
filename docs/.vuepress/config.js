@@ -110,6 +110,8 @@ module.exports = {
                         'ELK',
                         'distributed-transaction',
                         'proxy',
+                        'spring-security',
+                        'jacksonUtils',
                     ],
                     '/resource/': []
                 }
